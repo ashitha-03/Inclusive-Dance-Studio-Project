@@ -19,7 +19,7 @@ Admins can manage registrations, schedules, and content efficiently.
 ---
 
 ## ✨ Key Features
-- Admin and Student login system  
+- Admin Teacher,Student login system  
 - Course management and scheduling  
 - Inclusive dance registration  
 - Responsive user interface  
