@@ -1,0 +1,549 @@
+
+html, body {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    height: 100vh;
+    
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+  
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+ 
+.wrapper
+{
+  min-height: 75%;
+  
+
+
+}
+header
+{
+ height:  25%;
+  
+  background-color: black;
+}
+section{
+  height: 75%;
+}
+
+section .sec_img
+{
+  height: 700px;
+  margin-top: 0px;
+  background-color: lightblue;
+  background-image: url("./images/danc1.jpg");
+  background-size: cover;
+  background-position:50% 50%;
+ 
+  
+  
+  
+
+}
+footer
+{
+  height: 300px;
+  
+  
+  background-color: black;
+  
+
+}
+.logo
+{
+padding-left: 15px;
+float:left;
+font-size: 10px;
+
+}
+.logo img
+{
+  height:90px;
+  margin-top: 15px;
+  
+  padding-left: 55px;
+
+}
+
+.subHeading
+{
+  padding-left: 30px;
+}
+
+
+li a{
+  color: white;
+  text-decoration: none;
+
+}
+nav{
+  float:right;
+  padding: 20px;
+}
+nav li
+{
+  display: inline-block;
+  line-height: 80px;
+  margin-right: 20px;
+}
+.box
+{
+  min-height:300px;
+  width: 900px;
+  background-color:powderblue;
+  opacity: .6;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto;
+
+}
+.login-background {
+ 
+  
+  
+  background-image: url(./images/project.jpg); 
+  padding: 60px;
+  
+}
+form{
+  text-align: center;
+ 
+}
+.box1
+{
+  height: 560px;
+    width: 40%;
+    background-color: white;
+    margin: 0px auto;
+    opacity: .7;
+    color: black;
+    padding: 19px;
+  
+}
+input{
+  height: 25px;
+  
+  color: #000;
+  
+}
+
+
+
+.box2{
+  
+  min-height: 75%;
+  background-color:rgb(152, 192, 223);
+  color: black;
+  padding: 70px;
+
+   
+}
+
+
+.reg-text
+{
+  text-align: center;
+  font-size: 50px;
+  font-style:oblique;
+  color: black;
+
+
+
+
+}
+.para{
+  color:black;
+  padding-right: 200px; 
+  text-align: center; 
+  padding-right: 15px;
+}
+
+.box2 p{
+  line-height: 24px;
+  font-size: 18px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+.applications select {
+  padding: 5px;
+  width: 100%;
+}
+
+form button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+.applications select {
+    padding: 5px;
+    width: 100%;
+    height: 30px;
+  
+}
+
+form button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.applications .reg-text {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+.dance-style {
+  
+  margin: 20px;
+  padding: 10px;
+  
+
+}
+
+.dance-style h2 {
+  font-size: 40px;
+  font-style: italic;
+  color:whi;
+  font-weight: bolderSss;
+  
+}
+
+
+.dance-style img {
+ height: 360px; 
+
+}
+
+ 
+
+
+.dance-style p {
+  font-size: 20px; 
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+select {
+ 
+  
+  
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.teacher-schedule .add-schedule{
+   width: 30%;
+   margin: 80px auto;
+}
+
+.teacher-schedule .add-schedule input, .teacher-schedule .add-schedule select{
+  margin-bottom: 10px;
+
+}
+
+
+
+.custom-select {
+  position: relative;
+  display: inline-block;
+}
+
+.select-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+select[multiple] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  width: 100%; /
+}
+
+
+select[multiple] option {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+
+select[multiple]:hover {
+  border-color: #007BFF;
+}
+
+
+select[multiple] option:hover {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+.footer_logo
+{
+  margin: 0px 570px;
+  text-align: center;
+}
+
+
+.fa
+{
+  font-size :20px;
+  width:20px;
+  height:20px;
+  text-align :center;
+  text-decoration: none;
+  border-radius: 50%;
+  padding: 5px;
+  
+
+
+}
+.fa:hover
+{
+  opacity: .7;
+}
+.fa-facebook
+{
+  background:#3B5998;
+    color:white;
+}
+
+.fa-twitter
+{
+  background:#55ACEE;
+    color:white;
+  }
+  .fa-google
+{
+  background:#dd4b39;
+    color:white;
+}
+
+.fa-instagram
+{
+  background:#125688;
+    color:white;
+}
+
+.fa-yahoo
+{
+  background:#400297;
+    color:white;
+}
+
+#payment-details {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+
+.pay_button
+{
+  display: block;
+  width: 100%;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.main-container {
+  max-width: 800px;
+  margin: 20px auto;
+  
+  background-color: rgb(152, 192, 223);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  color: #333;
+}
+
+.section-title {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.content {
+  color: #555;
+}
+
+.box3 {
+  min-height:300px;
+  width: 900px;
+  background-color: rgb(152, 192, 223);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px auto;
+  padding: 30px 0px;
+}

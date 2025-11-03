@@ -1,0 +1,238 @@
+
+html, body {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    height: 100vh;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+  
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+ 
+.wrapper
+{
+  height: 790px;
+  
+  /*background-color: aqua;*/
+
+}
+header
+{
+ height:  25%;
+  
+  background-color: black;
+}
+
+section{
+  height: 75%;
+}
+section .sec_img
+{
+  height: 700px;
+  margin-top: 0px;
+  background-color: lightblue;
+  background-image: url("./images/danc1.jpg");
+  background-size: cover;
+  background-position:50% 50%;
+ 
+  
+  
+  
+
+}
+footer
+{
+  height: 300px;
+  
+  
+  background-color: black;
+  
+
+}
+.logo
+{
+padding-left: 15px;
+float:left;
+font-size: 10px;
+
+}
+.logo img
+{
+  height:90px;
+  margin-top: 15px;
+  
+  padding-left: 55px;
+
+}
+
+.subHeading
+{
+  padding-left: 30px;
+}
+
+
+li a{
+  color: white;
+  text-decoration: none;
+
+}
+nav{
+  float:right;
+  word-spacing: 30px;
+  
+  padding: 20px;
+}
+nav li
+{
+  display: inline-block;
+  line-height: 80px;
+}
+.box
+{
+  height:300px;
+  width: 900px;
+  background-color:powderblue;
+  margin:80px auto;
+  opacity: .6;
+
+}
+.login-background {
+ 
+  
+  
+  background-image: url(./images/project.jpg); 
+  padding: 60px;
+  
+}
+form{
+  text-align: center;
+ 
+}
+.box1
+{
+  height: 560px;
+    width: 40%;
+    background-color: white;
+    margin: 0px auto;
+    opacity: .7;
+    color: black;
+    padding: 19px;
+  
+}
+input{
+  height: 25px;
+  
+  color: #000;
+  
+}
+
+
+
+.box2{
+  
+  
+  background-color:rgb(152, 192, 223);
+  color: whitesmoke;
+  padding: 20px;
+  height: 100%;
+  
+
+}
+.reg-text
+{
+  text-align: center;
+  font-size: 50px;
+  font-style:oblique;
+  color: black;
+
+
+
+}
+.para{
+  color:black;
+  padding-right: 200px; 
+  text-align: center; 
+  padding-right: 15px;
+}
+
+.box2 p{
+  line-height: 24px;
+  font-size: 18px;
+}
+
